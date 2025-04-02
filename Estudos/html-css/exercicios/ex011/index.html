@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <title>Mídia em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente esse site em varios dispositivos ou simplesmente aumente e diminua o tamanho da página.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+        <img src="imgs/foto-g.png" alt="">
+    </picture>
+    <h1>vamos apreender a reproduzir áudios em HTML5</h1>
+    <audio preload="metadata" controls>
+        <source src="midia/gorila.mp3.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

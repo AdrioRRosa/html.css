@@ -1,0 +1,26 @@
+@charset "UTF8";
+
+body {
+    background-color: rgb(144, 240, 144);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+h1#principal {
+    background-color: green;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+.basico {
+    background-color: black;
+}
