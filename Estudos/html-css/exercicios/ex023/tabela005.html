@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(209, 209, 209);
+        }
+
+        thead {
+            background-color: grey;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+
+        td.num {
+            text-align: right;
+        }
+        div.container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Produtos</th>
+                    <th>jan</th>
+                    <th>fev</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Xbox</td>
+                    <td>22</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>play2</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Tamagosh</td>
+                    <td>999</td>
+                    <td>88787</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
